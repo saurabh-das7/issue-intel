@@ -1,4 +1,4 @@
-# issue-intel
+# llm-issue-categorizer
 
 A practical, PM-driven tool for turning noisy operational issue data into structured, 
 actionable product intelligence — built from real experience managing vendor operations 
@@ -85,8 +85,8 @@ Full problem framing: [docs/01_problem_statement.md](./docs/01_problem_statement
 
 ```bash
 # Clone the repo
-git clone https://github.com/saurabh-das7/issue-intel.git
-cd issue-intel
+git clone https://github.com/saurabh-das7/llm-issue-categorizer.git
+cd llm-issue-categorizer
 
 # Install dependencies
 pip install -r requirements.txt
@@ -105,7 +105,7 @@ streamlit run app/main.py
 ## Repo Structure
 
 ```
-issue-intel/
+llm-issue-categorizer/
 ├── README.md
 ├── app/                                  # Streamlit application (coming build stage)
 │   ├── main.py
